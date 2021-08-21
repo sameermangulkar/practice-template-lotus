@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.wrapper{
+    width: 100%;
+    height: auto;
+}
+
+.container, .container-1{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container-1{
+    display: flex;
+}
+/**************** header-icon ************************/
+
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: #3d3d3d;
+}
+
+.header-icon{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-us{
+    color: #b9b9b9;
+}
+
+.icon ol li{
+    display: inline-block;
+    margin-top: 7px;
+    margin-right: 5px;
+}
+
+
+.input{
+    width: 100px;
+    height: 24px;
+    background-color: #2f2f2f;
+    color: #666666;
+    border-radius: 6px;
+    border: none;
+    position: relative;
+}
+
+.search-merge{
+    position: absolute;
+    right: 192px;
+    top: 15px;
+}
+
+.purchase{
+    width: 150px;
+    height: 20px;
+    background-color: #b2080b;
+    color: white;
+    font-size: 10px;
+    transform: rotate(16deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+/******************** header-button **************************/
+.header-button{
+    height: 90px;
+    color: #aebecb;
+    display: flex;
+    align-items: center;
+}
+
+.header-button h1{
+    font-size: 42px;
+}
+
+.header-button h6{
+    font-size: 8px;
+    width: 40px;
+    height: 15px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -7px;
+    margin-top: 12px;
+    margin-right: 130px;
+}
+
+.header-button nav ol li{
+    display: inline-block;
+}
+
+.header-button nav ol li a{
+    text-decoration: none;
+    padding: 36px 10px;
+}
+
+.header-button nav ol li a:hover, .header-button nav ol li a.active{
+    background-color: #f5f5f5;
+    border-bottom: 2px solid #b2c0cd;
+}
+
+
+/***************************** smart-page **************************/
+.smart-page{
+    height: 500px;
+    background-color: #deb609;
+    background-size: 100%;
+}
+
+.column-1{
+    width: 310px;
+    height: 500px;
+    padding-left: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column-1 img{
+    width: 125px;
+    height: 195px;
+    margin-bottom: 20px;
+}
+
+.column-1 h1{
+    line-height: 15px;
+}
+.column-1 h2{
+    font-size: 29px;
+    font-weight: normal;
+    margin-bottom: 9px;
+}
+.column-1 p{
+    color: black;
+    margin-bottom: 25px;
+}
+
+.column-1 span{
+    width: 100px;
+    height: 40px;
+    background-color: #1a8dce;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-2{
+    width: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.column-2 img{
+    margin-top: 18px;
+}
+
+/************* portfolio ******************/
+
+.portfolio-buttons, .recent-news, .clients{
+    width: 1000px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.portfolio-buttons img{
+    width: 400px;
+    height: 20px;
+    margin: 0 15px 0 10px;
+    border: 1px solid black;
+}
+
+.portfolio-buttons ol li{
+    display: inline-block;
+}
+.portfolio-buttons ol li a{
+    text-decoration: none;
+    color: #8e8e8e;
+}
+
+.portfolio-buttons ol li a.active, .portfolio-buttons h4, .portfolio-buttons ol li a:hover{
+    color: #393939;
+}
+
+
+
+/************* portfolio-imges *********************/
+.portfolio-images, .recent-news-image{
+    width: 1000px;
+    padding-top: 20px;
+    display: flex;
+}
+.portfolio-images{
+    height: 780px;
+}
+.recent-news-image{
+    height: 220px;
+}
+.portfolio-column-1, .recent-news-column, .recent-news-column-1{
+    width: 333px;
+}
+
+.portfolio-column-1 img{
+    margin-bottom: 4px;
+}
+
+/****************** recent-news ******************************/
+.recent-news h4{
+    margin-right: 10px;
+}
+
+.recent-news h4 span{
+    margin-left: 30px;
+}
+.recent-news span img{
+    width: 465px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.recent-news h3 img{
+    width: 150px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.left-arrow, .right-arrow{
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    color: white;
+    margin-right: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-arrow{
+    background-color: #bababa;
+}
+
+.right-arrow{
+    background-color: #6d6d6d;
+}
+
+
+.recent-news-column-1 h1{
+    height: 220px;
+    float: left;
+    font-size: 12px;
+    line-height: 9px;
+    text-align: center;
+    color: #74adc1;
+    margin-right: 20px;
+}
+
+.recent-news-column-1 h1 span{
+    font-size: 28px;
+    width: 35px;
+    height: 30px;
+    background-color: #74adc1;
+    color: white;
+    border-radius: 5px;
+    text-decoration-line: line-through;
+    text-decoration-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recent-news-column-1 h2{
+    margin-bottom: 30px;
+    color: #6d6d6d;
+    font-size: 20px;
+}
+
+.recent-news-column p{
+    width: 290px;
+    height: 140px;
+    padding: 15px;
+    background-color: #f8f8f8;
+    font-size: 14px;
+    color: #686868;
+    position: relative;
+}
+
+.recent-news-column span img{
+    position: absolute;
+    margin-left: 30px;
+}
+
+.recent-news-column h6{
+    margin-left: 69px;
+    margin-top: 14px;
+}
+
+.recent-news-column h6 span{
+    color: #74adc1;
+}
+
+/******************** clients ********************/
+.clients img{
+    width: 933px;
+    height: 20px;
+    margin-left: 12px;
+}
+
+.clients-logos{
+    width: 1000px;
+    height: 125px;
+    border-bottom: 4px solid #c5c5c5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.clients-logos img{
+    margin-right: 50px;
+}
+
+/********************** footer *******************************/
+.footer{
+    width: 100%;
+    height: 380px;
+    background-color: #242424;
+    color: white;
+}
+
+.footr-col-1, .footr-col-2, .footr-col-3, .footr-col-4{
+    width: 250px;
+    height: 310px;
+    padding: 35px 0 35px 0;
+}
+
+.footr-col-1 h4, .footr-col-2 h4, .footr-col-3 h4, .footr-col-4 h4{
+    margin-bottom: 25px;
+    color: #fefefe;
+}
+
+.footr-col-1-box, .footr-col-2-box{
+    width: 215px;
+    height: 80px;
+    padding-right: 15px;
+}
+
+.footr-col-1-box, .footr-col-3-box{
+    border-bottom: 1px dotted #4a4a4a;
+    margin-bottom: 15px;
+}
+
+.footr-col-3-box, .footr-col-3-box-1{
+    width: 215px;
+    height: 135px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+
+
+
+.footr-col-1-box img, .footr-col-2-box img, .footr-col-3-box img, .footr-col-3-box-1 img{
+    float: left;
+    margin-right: 7px;
+}
+
+.footr-col-1-box h5, .footr-col-2-box h5, .footr-col-3-box h5, .footr-col-3-box-1 h5{
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 14px;
+    color: #969696;
+}
+
+.footr-col-1-box span, .footr-col-2-box span, .footr-col-3-box span,
+ .footr-col-3-box p, .footr-col-3-box-1 span, .footr-col-3-box-1 p, .footr-col-4 p{
+    font-size: 12px;
+    line-height: 18px;
+    color: #6d6d6d;
+}
+
+.footr-col-1-box span{
+    margin-left: 47px;
+}
+.footr-col-3-img{
+    height: 90px;
+    float: left;
+}
+
+/************************ footer-icon *******************/
+.footer-icon{
+    width: 100%;
+    height: 70px;
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-icon ol li{
+    display: inline-block;
+    font-size: 12px;
+    border-right: 1px solid #6d6d6d;
+    padding-right: 15px;
+    padding-left: 5px;
+    color: #6d6d6d;
+}
+.footer-icon ol li a{
+    text-decoration: none;
+    color: #6d6d6d;
+}
+.footer-icon ol li.active-footr{
+    border: none;
+}
+.footer-icon ol{
+    margin-right: 330px;
+}
+
+.footr-icon-1 img{
+    margin-left: 4px;
+}
+
+
+
+
+
